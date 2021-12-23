@@ -17,9 +17,6 @@ const jsonParser = bodyParser.json()
 // controller \\
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req,res) =>{
-    res.sendFile(path.resolve('index.html'))
-});
 
 // get all tasks
 app.get('/tasks', (req,res) =>{
@@ -64,7 +61,6 @@ app.delete('/tasks/:id', (req,res) => {
             console.log(err);
         });
 })
-
 
 // utility functions
 function obscureEmail(emailString){
