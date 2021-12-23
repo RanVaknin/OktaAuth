@@ -37,7 +37,6 @@ app.post('/tasks', jsonParser,  (req,res) =>{
         let email = jwt.claims.sub;
         let id = short.generate();
         tasks.set(id, {"id": id, "name": name, "description": description,"email":email})
-        console.log(tasks)
         res.status(200);
     } )
     .catch(err => console.warn('token failed validation') );
@@ -48,7 +47,6 @@ app.delete('/tasks/:id', (req,res) => {
         .then(jwt => {
                 let taskId = req.params.id;
                 let email = jwt.claims.sub;
-                console.log(email,tasks.get(taskId))
                 if(email === tasks.get(taskId).email){
                     tasks.delete(taskId);
                     res.status(200).send({"message": "Entry removed successfully", "tasks": tasks});
