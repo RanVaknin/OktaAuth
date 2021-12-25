@@ -4,9 +4,7 @@
 * [Overview](#Overview)
 * [Getting started](#getting-started)
 * [Usage guide](#usage-guide)
-* [API Reference](#api-reference)
 * [Known Issues](#known-issues)
-* [More Thoughts](#more-thoughts)
 
 # Overview
 Task is a simple SPA allowing users to record their to-do's in a public ledger. It was built to demonstrate the implementation of the Okta sign-in widget for authentication and authorization using OAuth 2.0 OIDC and PKCE.
@@ -43,3 +41,6 @@ After that you will enter your phone number and will be sent a code as an MFA me
 # Usage Guide
 Once you are logged in you can add your own tasks to the public to-do list.
 Once you have completed the task you can then delete your task from the records using the delete button.
+
+# Known Issues
+After every time the user logs in there is a delay between the time when user created a task until the time it shows up on the ledger. A simple refresh of the web page solves the issue and then tasks are added to the ledger as expected.

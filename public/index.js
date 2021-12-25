@@ -1,4 +1,14 @@
 
+var animation = bodymovin.loadAnimation({
+    // animationData: { /* ... */ },
+    container: document.getElementById('main_img'), // required
+    path: 'animation.json', // required
+    renderer: 'svg', // required
+    loop: true, // optional
+    autoplay: true, // optional
+    name: "Demo Animation", // optional
+});
+
 const oktaSignIn = new OktaSignIn({
     baseUrl: 'https://dev-71544132.okta.com',
     redirectUri: 'http://localhost:8080/login/callback',
@@ -20,7 +30,7 @@ $(tryButton2).on("click", ()=>{
     });
 })
 
-let signInContainer = document.getElementsByClassName("container")[0];
+let signInContainer = document.getElementsByClassName("login_container")[0];
 $(tryButton).on("click", ()=>{
     $(signInContainer).css('visibility', function(i, v) {
         return v == 'hidden' ? 'visible' : 'hidden';
