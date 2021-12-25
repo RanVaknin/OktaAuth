@@ -106,7 +106,7 @@ fetch("/tasks")
 $('#btn').on("click", ()=>{
     const accessToken = oktaSignIn.authClient.getAccessToken();
     if (!accessToken) {
-        alert("Please log in to interact with this beautiful app")
+        alert("Please sign in to start interacting with the app")
         return;
     } else {
         let tName = document.getElementById('tname').value;

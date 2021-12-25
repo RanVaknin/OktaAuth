@@ -7,7 +7,8 @@
 * [Known Issues](#known-issues)
 
 # Overview
-Task is a simple SPA allowing users to record their to-do's in a public ledger. It was built to demonstrate the implementation of the Okta sign-in widget for authentication and authorization using OAuth 2.0 OIDC and PKCE.
+Task is a simple SPA allowing users to record their to-do's in a public ledger. It was built to demonstrate the implementation of the Okta sign-in widget for authentication and authorization using Authorization Code Flow with PKCE.
+
 
 The app features a mock local database - ```db.json``` that will serve CRUD operations for signed in users.
 
@@ -34,9 +35,9 @@ nodemon app.js
 
 
 #### Credentials
-Only signed in users can use the app. Please email me at ranvaknin0@gmail.com to be set up with a user.
-Once a user is created for you, you will be sent an email to set your password.
-After that you will enter your phone number and will be sent a code as an MFA measure.
+Public sign-up is disabled. Please email me at ranvaknin0@gmail.com to be set up with a user account.
+Once a user account is created for you, you will be sent an email to set your password.
+After that, you will enter your phone number and will be sent a code as an MFA measure.
 
 # Usage Guide
 Once you are logged in you can add your own tasks to the public to-do list.
