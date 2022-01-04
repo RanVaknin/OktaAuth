@@ -53,3 +53,6 @@ Once you have completed the task you can then delete your task from the records 
 -   The login widget is not customized since I did not see a way to customize it without hosting it on my own domain.
 
 -   Right now the first login SMS MFA flow is working but is not set up from the "Sign On Policy" section of the developer console. In order to enable it through the Sign On Policy users are needed to be redirected thus not using PKCE but rather the standard code grant flow.
+
+[<img src="https://i.ibb.co/nLYQDC0/web-development.png" width="300px" align="center"/>]()
+
