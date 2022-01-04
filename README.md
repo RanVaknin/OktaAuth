@@ -46,6 +46,8 @@ You can sign up for a user account. Once an account is created, an SMS message w
 Once you are logged in you can add your own tasks to the public to-do list.
 Once you have completed the task you can then delete your task from the records using the delete button.
 
+[<img src="https://i.ibb.co/vYXGpcz/image.png" />]()
+
 # Known Issues
 
 -   The login widget is not customized since I did not see a way to customize it without hosting it on my own domain.
