@@ -11,7 +11,7 @@
 
 Task is a simple SPA allowing users to record their to-do's in a public ledger. It was built to demonstrate the implementation of the Okta sign-in widget for authentication and authorization using Authorization Code Flow with PKCE.
 
-The app features a mock local database - `db.json` that will serve CRUD operations for signed in users.
+The app features a mock local database, a JS map - `db.js` that will serve CRUD operations for signed in users.
 
 The SPA's core functions are:
 
