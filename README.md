@@ -1,4 +1,4 @@
-# Task - Okta Auth Take Home Assessment
+# Task - Simple to do app utilizing Oauth PKCE flow with Okta
 
 [<img src="public/tasklogo_2.png" align="right" width="256px"/>]()
 
